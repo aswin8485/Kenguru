@@ -1,0 +1,106 @@
+* {
+
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: Montserrat;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    background: url(images/message.jpg) center no-repeat;
+    background-size: 100% auto;
+    color: white;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+li {
+
+    list-style: none;
+    display: inline-block
+}
+
+a {
+
+    text-decoration: none;
+    transition: all 500ms ease-in-out;
+}
+
+a:hover,
+a:active {
+
+    text-decoration: none;
+}
+
+h1,
+h2,
+h4 {
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+p {
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.btn {
+
+    transition: all 300ms ease-in-out;
+    font-weight: 500 !important;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+
+    background-color: #ededed !important;
+    color: #3c3c3c !important;
+    border: 1px solid #fff !important;
+}
+
+
+/*NAVIGATION*/
+
+
+.navbar {
+    
+    background-color: #ffffff !important;
+    padding: 20px;
+    /*text-transform: uppercase;*/
+    /*font-family: Montserrat;*/
+    /*font-weight: 700;*/
+}
+
+.navbar a {
+    
+    color: #212121 !important;
+    /*opacity: 0.8;*/
+}
+
+
+.navbar a:hover {
+    opacity: 1;
+    background-color: #4484ce !important;
+    color: #ffffff !important;
+}
+
+.navbar #navTitle{
+    /*color: #4484ce !important;*/
+    font-size: 2em;
+} 
+
+/*jumbotron*/
+
+.jumbotron {
+    margin-top: 90px;
+    opacity: .4;
+    color: black;
+}
+
+
+
